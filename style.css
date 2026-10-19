@@ -1,0 +1,107 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generic styling */
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Card styling */
+.card-box {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 500px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.card-title {
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.card-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  margin-bottom: auto;
+  padding: 10px 5px;
+  margin-left: 40px;
+  max-width: 25ch;
+}
+
+.card-image {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+/* button styling */
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  margin: 10px;
+  padding: 15px 30px;
+  border-radius: 40px;
+  border: none;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+/* button hover and click effects */
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn:active {
+  transform: scale(0.9);
+}
+
+/* card and buttontext colours */
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+#sedans .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+#suvs .btn {
+  color: hsl(184, 100%, 22%);
+}
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+#luxury .btn {
+  color: hsl(179, 100%, 13%);
+}
